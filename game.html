@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="game.css"></link>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@600&family=Reem+Kufi+Fun:wght@700&display=swap" rel="stylesheet">
+  <style>
+    header {
+    font-family: 'Bungee Spice', cursive;
+    }
+    #parentDiv {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: large;
+    color: white;
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <header><h1>'Lawn'gevity</h1></header>
+<div id="parentDiv">
+
+    <div class="Column">
+    <p class = "scythe">Starting Tool</p>
+    
+    <div id = "scythe">
+      <img onclick= "manualMow()" id = "scythe-photo" onclick="" src="images/2757_R0lVIE5JQyA2MjQtNDM.jpg">
+    </div>
+    
+    <div id='totalLawns'>
+      <section>Yards Mowed</section>
+      <p id="lawnNumber">0</p>
+    </div>
+    
+    <div id ='totalDays'>
+      <section>Days</section>
+      <p id="dayCounter">0</p>
+    </div>
+    
+  </div>
+
+    <div class ="Column">
+
+    <div id ='pushMower'>
+
+      <section>Push Mower</section>
+
+      <div id ='pushMowerImg'>
+      </div>
+
+      <div id="pushMowerButton">
+      </div>
+
+      <div id="pushMowerText">
+      </div>
+
+    </div>
+
+    <div id ='ridingMower'>
+
+      <section>Riding Mower</section>
+
+      <div id="ridingMowerImg">
+      </div>
+
+      <div id="ridingMowerButton">
+      </div>
+
+      <div id="ridingMowerText">
+      </div>
+
+    </div>
+
+    <div id ='dragsterMower'>
+
+      <section>Dragster Mower</section>
+
+      <div id="dragsterMowerImg">
+      </div>
+
+      <div id="dragsterMowerButton">
+      </div>
+
+      <div id="dragsterMowerText">
+      </div>
+
+    </div>
+
+    
+  </div>
+</div>
+    <script src="game.js"></script>
+</body>
+</html>

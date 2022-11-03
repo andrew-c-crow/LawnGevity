@@ -1,0 +1,114 @@
+body {
+  /* background-color: rgba(83, 205, 93, 0.694); */
+  background-image: url(https://cdn.pixabay.com/photo/2017/04/04/23/54/rush-2203494_1280.jpg);
+}
+/* body {
+  background-image: url("https://media.istockphoto.com/vectors/illustration-of-a-house-near-the-street-vector-id452479361?k=20&m=452479361&s=612x612&w=0&h=uKxTHYonGDcgU_NkvK3CpVIqfahiaDsX-W_IiTQ3yPs=");
+} */
+
+header {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.scythe {
+  display: flex;
+  justify-content: center;
+}
+
+#scythe {
+  display: flex;
+  justify-content: center;
+}
+
+#scythe-photo {
+  width: 150px;
+}
+
+#totalLawns {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#lawnNumber {
+  position: absolute;
+  padding-top: 10px;
+}
+
+#totalDays {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#dayCounter {
+  position: absolute;
+  padding-top: 10px;
+}
+
+Img {
+  width: 150px;
+}
+
+#parentDiv:after {
+  display: table;
+  /* clear: both */
+}
+
+.Column {
+float: left;
+width: 50%;
+justify-content: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+#pushMowerImg {
+  display: flex;
+  justify-content: center;
+}
+
+#pushMowerButton {
+  display: flex;
+  justify-content: center;
+}
+
+#pushMowerText {
+  display: flex;
+  justify-content: center;
+}
+
+#ridingMowerImg {
+  display: flex;
+  justify-content: center;
+}
+
+#ridingMowerButton {
+  display: flex;
+  justify-content: center;
+}
+
+#ridingMowerText {
+  display: flex;
+  justify-content: center;
+}
+
+#dragsterMowerImg {
+  display: flex;
+  justify-content: center;
+}
+
+#dragsterMowerButton {
+  display: flex;
+  justify-content: center;
+}
+
+#dragsterMowerText {
+  display: flex;
+  justify-content: center;
+}

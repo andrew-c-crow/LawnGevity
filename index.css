@@ -1,0 +1,18 @@
+body {
+  /* background-color: rgba(83, 205, 93, 0.694); */
+  background-image: url("https://media.istockphoto.com/vectors/illustration-of-a-house-near-the-street-vector-id452479361?k=20&m=452479361&s=612x612&w=0&h=uKxTHYonGDcgU_NkvK3CpVIqfahiaDsX-W_IiTQ3yPs=");
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  text-decoration: none;
+  font-size: xx-large;
+}
